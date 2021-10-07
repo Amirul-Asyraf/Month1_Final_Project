@@ -6,7 +6,7 @@
     --font-color: #2e3138;
     --primary-color-black: #000104;
     --primary-color-grey: #777777;
-    --primary-color-white: #E9E2D7;
+    --primary-color-white: #EAE6E5;
     /* --secondary-color: #3C988E; */
     --secondary-color: #34837A;
     --accent-color-blue: #002968;
@@ -115,16 +115,17 @@ html, body {
 }
 
 .header-intro h1 {
-    font-size: 85px;
+    font-size: 90px;
     z-index: 10;
     position: relative;
     color: var(--secondary-color);
 }
 
 .header-intro h2 {
-    font-size: 32px;
-    color: var(--tertiary-color);
-    margin: -22px 0;
+    font-size: 30px;
+    color: var(--font-color);
+    margin: -10px 0;
+    opacity: 0.7;
 }
 
 .open-bracket {
@@ -189,7 +190,7 @@ html, body {
 }
 
 #container-about-content span {
-    color: var(--background-color);
+    color: var(--secondary-color);
 }
 
 #container-about-last {
@@ -416,7 +417,7 @@ html, body {
     left: 100vw;
     top: 0;
     z-index: 10;
-    background-color: var(--font-color);
+    background-color: var(--primary-color-white);
     display: none;
 }
 
@@ -446,18 +447,19 @@ html, body {
     padding: 10px;
     margin: 20px 0;
     border: 0;
-    border-bottom: 2px solid var(--background-color);
+    border-bottom: 2px solid var(--font-color);
     background: none;
-    color: var(--font-color);
+    color: var(--secondary-color);
 }
 
 .form-action input:focus {
-    background-color: var(--background-color);
+    /* background-color: var(--secondary-color); */
     outline: none;
+    border-color: var(--secondary-color);
 }
 
 ::placeholder {
-    color: var(--highlight-color);
+    color: var(--font-color);
     opacity: 1;
 }
 
@@ -465,9 +467,14 @@ button {
     width: 80px;
     padding: 10px;
     border-radius: 20px;
-    border: 1px solid var(--font-color);
-    color: var(--font-color);
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
     background: transparent;
+}
+
+button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color-white);
 }
 
 .footer-line {
@@ -507,7 +514,7 @@ footer ul li {
 
 .hit {
     font-size: 50px;
-    color: var(--highlight-color);
+    color: var(--secondary-color);
     /* padding: 0 20px; */
 }
 
@@ -530,6 +537,7 @@ footer ul li {
         /* color: var(--background-color); */
         margin: 12px 0;
         /* ori margin: 25px 0 */
+        opacity: 0.7;
     }
 
     .open-bracket {
@@ -675,9 +683,10 @@ footer ul li {
         font-size: 20px;
     }
 
-    #container-about-content span {
-        color: var(--highlight-color);
-    }
+    /* #container-about-content span {
+        color: var(--font-color);
+        border-bottom: 1px solid var(--secondary-color);
+    } */
 
     .about-title {
         font-size: 100px;
@@ -723,8 +732,8 @@ footer ul li {
 
     .hit {
         font-size: 70px;
-        background-color: white;
-        padding: 0 20px;
+        /* background-color: white; */
+        /* padding: 0 20px; */
     }
 
     .contact-form-content {
@@ -740,11 +749,25 @@ footer ul li {
 
     .form-action input {
         width: 300px;
+        border-bottom: 2px solid var(--font-color);
+        background: none;
+        color: var(--secondary-color);
     }
 
     .form-action input:hover {
         background-color: white;
         transition: all .2s;
+    }
+
+    .form-action input:focus {
+        /* background-color: var(--secondary-color); */
+        outline: none;
+        border-color: var(--secondary-color);
+    }
+    
+    ::placeholder {
+        color: var(--font-color);
+        opacity: 1;
     }
 
     #msg {
