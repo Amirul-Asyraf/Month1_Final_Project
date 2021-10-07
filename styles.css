@@ -140,7 +140,7 @@ html, body {
     bottom: 230px;
 }
 
-.open-bracket, .close-bracket {
+.open-bracket, .close-bracket, #open-bracket-form, #close-bracket-form {
     font-size: 25px;
     color: var(--primary-color-grey);
 }
@@ -406,6 +406,19 @@ html, body {
     margin-bottom: 200px;
     text-align: center;
     cursor: pointer;
+    position: relative;
+}
+
+#open-bracket-form {
+    position: absolute;
+    left: 0;
+    top: -160px;
+}
+
+#close-bracket-form {
+    position: absolute;
+    right: 0;
+    bottom: -160px;
 }
 
 #contact-form {

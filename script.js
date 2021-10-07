@@ -35,8 +35,8 @@ var formMsg = document.getElementById('msg');
 var aboutLast = document.getElementById('container-about-last');
 var totoroCat = document.getElementById('totoro-cat');
 var helloWorld = document.getElementById('hello-world');
-// var container = document.getElementById("container");
-// var webLayout = false;
+var openForm = document.getElementById('open-bracket-form');
+var closeForm = document.getElementById('close-bracket-form');
 
 const works = [
     {
@@ -60,7 +60,7 @@ const works = [
     {
         title: 'Image Slider',
         img: 'url(images/slider.png)',
-        link: '#'
+        link: 'https://amirul-asyraf.github.io/Day11/Class%20Exercise/slider.html'
     },
 
     {
@@ -90,6 +90,8 @@ function onScroll(evt) {
     if (window.scrollY + 500 >= contact.offsetTop) {
         contact.classList.add('title-grow');
         contact.style.opacity = '1';
+        openForm.classList.add('fadeIn-left');
+        closeForm.classList.add('fadeIn-right');
     }
 }
 
