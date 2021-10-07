@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Am.Ash</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <header>
+                <div id="nav-bar">
+                    <i id="menu" class="fas fa-bars" onclick="showMenu()"></i>
+                </div>
+
+                <div id="nav-menu">
+                    <i id="close-menu" class="fas fa-times" onclick="hideMenu()"></i>
+                    <p class="name">Am<span>.</span>Ash</p>
+                    <ul>
+                        <li><a href="#header-content" onclick="hideMenu()">Home<span>&#9679;</span></a></li>
+                        <li><a href="#about" onclick="hideMenu()">About<span>&#9679;</span></a></li>
+                        <li><a href="#works" onclick="hideMenu()">Works<span>&#9679;</span></a></li>
+                        <li><a href="#contact" onclick="hideMenu()">Contact<span>&#9679;</span></a></li>
+                    </ul>
+                </div>
+
+                <div id="header-content">
+                    <h3 class="open-bracket fadeIn-left">&lt;body&gt;</h3>
+                    <div class="header-intro">
+                        <h2>Software Engineer</h2>
+                        <h1 class="title-grow">Amirul Asyraf</h1>
+                        <h2>Kuala Lumpur, Malaysia</h2>    
+                    </div>
+                    <h3 class="close-bracket fadeIn-right">&lt;/body&gt;</h3>
+                </div>
+            </header>
+
+            <section id="about">
+                <h1 class="about-me">About Me</h1>
+                <div class="title-separator"></div>
+                <div class="about-title">
+                    <h1 id="hello-world">Hello World.</h1>
+                </div>
+                <div id="container-about">
+                    <div id="container-about-image"></div>
+                    <div id="container-about-content">
+                        <p>
+                            My name is <span>Amirul Asyraf</span>, but please feel free to refer to me as <span>"Ash"</span> (and yes, like Ash from Pokemon). I'm a budding <span>software engineer</span> with a background in Electronics Engineering and majored in Advanced Computing and Communications (sounds fancy, but really isn't). 
+                            It was during the final year of my studies that I truly acquired a taste and strong interest for <span>Machine Learning</span> and <span>Artifical Intelligence</span>, with hopes that one day I'll be able to continuously pursue these fields (because who wouldn't want a Terminator apocalypse right?).
+                            <br>
+                            <br>
+                            I'm currently undergoing a <span>3-month Software Engineering programme</span> under the Malaysian-based company known as, <span>Invoke</span>, having recently completed my first month of the programme in <span>Front-end Development</span> and will be starting my second month in <span>Back-end Development</span>.
+                            I've learnt and gained so much from only one month of Software Engineering and am eager to learn more in the following months and quickly give back using my newly acquired skills.
+                            <br>
+                            <br>
+                            I hope to be able to one day <span>bring change to the lives of people in Malaysia</span> (and on a larger scale to people all around the world) via a technological route. Our understanding of technology is still very limited and there are still so many people who's lives can be heavily impacted when integrated with tech and I hope to provide better futures for these people. 
+                            <br>
+                            <br>
+                            Want to know more about my credentials and what I've done? Download my resume below! <i class="far fa-hand-point-down"></i>
+                            <br>
+                            <br>
+                            <a class="resume" href="resume/Resume_Amirul_Asyraf_Kamaruzzaman.pdf">Download Resume</a>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="works">
+                <h1 class="my-works">My Works</h1>
+                <div class="title-separator"></div>
+
+                <div id="card-section-mobile"></div>
+
+                <div id="card-section-desktop">
+                    <div class="card-list">
+                        <article class="card">
+                            <header class="card-header">
+                                <div class="card-image card-image1"></div>
+                                <div class="card-info">
+                                    <h2>Weather App</h2>   
+                                    <div class="creator">
+                                        <div class="avatar"></div>
+                                        <h5>Creator: <br> Ash</h5>
+                                    </div>
+                                </div>
+                            </header>
+                        </article>
+            
+                        <article class="card">
+                            <header class="card-header">
+                                <div class="card-image card-image2"></div>
+                                <div class="card-info">
+                                    <h2>Music Player</h2>
+                                    <div class="creator">
+                                        <div class="avatar"></div>
+                                        <h5>Creator: <br> Ash</h5>
+                                    </div>
+                                </div>
+                            </header>
+                        </article>
+            
+                        <article class="card">
+                            <header class="card-header">
+                                <div class="card-image card-image3"></div>
+                                <div class="card-info">
+                                    <h2>Parallax Site</h2>
+                                    <div class="creator">
+                                        <div class="avatar"></div>
+                                        <h5>Creator: <br> Ash</h5>
+                                    </div>
+                                </div>
+                            </header>
+                        </article>
+            
+                        <article class="card">
+                            <header class="card-header">
+                                <div class="card-image card-image4"></div>
+                                <div class="card-info">
+                                    <h2>Piano Keyboard</h2>
+                                    <div class="creator">
+                                        <div class="avatar"></div>
+                                        <h5>Creator: <br> Ash</h5>
+                                    </div>
+                                </div>
+                            </header>
+                        </article>
+            
+                        <article class="card">
+                            <header class="card-header">
+                                <div class="card-image card-image5"></div>
+                                <div class="card-info">
+                                    <h2>To-do List App</h2>  
+                                    <div class="creator">
+                                        <div class="avatar"></div>
+                                        <h5>Creator: <br> Ash</h5>
+                                    </div>
+                                </div>
+                            </header>
+                        </article>
+            
+                        <article class="card">
+                            <header class="card-header">
+                                <div class="card-image card-image6"></div>
+                                <div class="card-info">
+                                    <h2>Image Slider</h2> 
+                                    <div class="creator">
+                                        <div class="avatar"></div>
+                                        <h5>Creator: <br> Ash</h5>
+                                    </div>
+                                </div>
+                            </header>
+                        </article>
+            
+                        <article class="card">
+                            <header class="card-header">
+                                <div class="card-image card-image7"></div>
+                                <div class="card-info">
+                                    <h2>Chat Room App</h2>  
+                                    <div class="creator">
+                                        <div class="avatar"></div>
+                                        <h5>Creator: <br> Ash</h5>
+                                    </div>
+                                </div>
+                            </header>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="contact-link" onclick="showForm()">
+                    CONTACT
+                    <br>
+                    <span>Let's Chat!</span>
+                </div>
+
+                <div id="contact-form">
+                    <i id="close-form" class="fas fa-times" onclick="hideForm()"></i>
+                    <div class="contact-form-content">
+                        <h1>Work?<br>Comments?<br>Chat?<br><span class="hit">Hit Me Up!</span></h1>
+
+                        <form class="form-action" action="">
+                            <input id="name" type="text" placeholder="Name">
+                            <input id="email" type="email" placeholder="Email">
+                            <input id="msg" type="text" placeholder="Message..">
+                            <button onclick="sendResponse()">SEND</button>
+                        </form>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <footer>
+                <div class="footer-line"></div>
+                <ul>
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href=""><i class="fab fa-github-square"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                </ul>
+            </footer>
+
+
+            <!-- firebase app -->
+            <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+
+            <!-- firebase database -->
+            <script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-database.js"></script>
+
+            <script src="script.js"></script>
+        </div>  
+    </body>
+</html>
