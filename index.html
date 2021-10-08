@@ -34,6 +34,13 @@
                         <li><a href="#works" onclick="hideMenu()">Works<span>&#9679;</span></a></li>
                         <li><a href="#contact" onclick="hideMenu()">Contact<span>&#9679;</span></a></li>
                     </ul>
+
+                    <!-- <ul id="nav-menu-desktop">
+                        <li><a href="#header-content">Home<span>&#9679;</span></a></li>
+                        <li><a href="#about">About<span>&#9679;</span></a></li>
+                        <li><a href="#works">Works<span>&#9679;</span></a></li>
+                        <li><a href="#contact">Contact<span>&#9679;</span></a></li>
+                    </ul> -->
                 </div>
 
                 <div id="header-content">
@@ -193,11 +200,13 @@
                     <div class="contact-form-content">
                         <h1>Work?<br>Comments?<br>Chat?<br><span class="hit">Hit Me Up!</span></h1>
 
-                        <form class="form-action" action="">
+                        <form id="response-form" class="form-action" action="">
                             <input id="name" type="text" placeholder="Name">
                             <input id="email" type="email" placeholder="Email">
                             <input id="msg" type="text" placeholder="Message..">
                             <button onclick="sendResponse()">SEND</button>
+                            <br>
+                            <h5 id='response'>Your message has been sent! Thanks!</h5>
                         </form>
                     </div>
                     

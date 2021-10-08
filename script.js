@@ -50,6 +50,8 @@ var totoroCat = document.getElementById('totoro-cat');
 var helloWorld = document.getElementById('hello-world');
 var openForm = document.getElementById('open-bracket-form');
 var closeForm = document.getElementById('close-bracket-form');
+var responseForm = document.getElementById('response-form');
+var response = document.getElementById('response');
 
 const works = [
     {
@@ -144,17 +146,18 @@ function hideForm() {
     // document.querySelector('body').style.overflow = 'scroll';
     contactForm.style.left = '100vw';
     setTimeout(function(){ contactForm.style.display = 'none'; }, 800);
+    response.style.display = 'none';
 }
 
 function sendResponse () {
     if (formName.value !== '' || formEmail.value !== '' || formMsg.value !== '' ) {
         //push the data and store in database
         firebase.database().ref('portfolio').child('response').push({
-            name: formName.value,
-            email: formEmail.value,
-            msg: formMsg.value,
-            // time: now.toTimeString().substring(0,8),
+                name: formName.value,
+                email: formEmail.value,
+                msg: formMsg.value,
             })
+        response.style.display = 'block';
     } else {
         alert('Need to type a message!')
     }

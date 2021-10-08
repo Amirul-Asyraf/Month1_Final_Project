@@ -472,6 +472,11 @@ button:hover {
     color: var(--primary-color-white);
 }
 
+#response {
+    display: none;
+    color: var(--secondary-color);
+}
+
 .footer-line {
     width: 100%;
     height: 1px;
