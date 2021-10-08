@@ -4,16 +4,29 @@
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
-const firebaseConfig = {
-    apiKey: "AIzaSyAKoPmShlNMYKWHwOWHak2k4CoRSXOu0l8",
-    authDomain: "portfolio-responses-b98ca.firebaseapp.com",
-    databaseURL: "https://portfolio-responses-b98ca-default-rtdb.asia-southeast1.firebasedatabase.app/",
-    projectId: "portfolio-responses-b98ca",
-    storageBucket: "portfolio-responses-b98ca.appspot.com",
-    messagingSenderId: "1050821950027",
-    appId: "1:1050821950027:web:05bc5a281e831ab4552bce"
-};
+// const firebaseConfig = {
+//     apiKey: "AIzaSyAKoPmShlNMYKWHwOWHak2k4CoRSXOu0l8",
+//     authDomain: "portfolio-responses-b98ca.firebaseapp.com",
+//     databaseURL: "https://portfolio-responses-b98ca-default-rtdb.asia-southeast1.firebasedatabase.app/",
+//     projectId: "portfolio-responses-b98ca",
+//     storageBucket: "portfolio-responses-b98ca.appspot.com",
+//     messagingSenderId: "1050821950027",
+//     appId: "1:1050821950027:web:05bc5a281e831ab4552bce"
+// };
 
+// Initialize Firebase
+// firebase.initializeApp(firebaseConfig);
+
+const firebaseConfig = {
+    apiKey: "AIzaSyDoqY0sfPvcJSkl9Se8o8CMb-4NfFWlvpE",
+    authDomain: "chat-room-86be3.firebaseapp.com",
+    databaseURL: "https://chat-room-86be3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    projectId: "chat-room-86be3",
+    storageBucket: "chat-room-86be3.appspot.com",
+    messagingSenderId: "699540162323",
+    appId: "1:699540162323:web:6525189a3d3414d096bce6"
+};
+  
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 

@@ -148,7 +148,6 @@ html, body {
 #about {
     margin: 50px 0;
     position: relative;
-    /* background-color: var(--primary-color-black); */
 }
 
 .about-title {
@@ -191,21 +190,6 @@ html, body {
 
 #container-about-content span {
     color: var(--secondary-color);
-}
-
-#container-about-last {
-    height: 50vh;
-    position: relative;
-    /* background-image: url(images/totoro-bus-stop.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-}
-
-.about-last-content {
-    position: absolute;
-    width: 50vw;
-    margin-left: 8.5em;
-    z-index: 10;
 }
 
 .resume {
@@ -275,7 +259,6 @@ html, body {
     overflow-x: scroll;
     color: white;
     border-radius: 10px;
-    /* background-color: #17141d;; */
 }
 
 .card-list::-webkit-scrollbar {
@@ -300,7 +283,6 @@ html, body {
     flex-direction: column;
 
     border-radius: 30px;
-    /* background: #17141d; */
     background: var(--primary-color-grey);
     box-shadow: -1rem 0 3rem #000;
 
