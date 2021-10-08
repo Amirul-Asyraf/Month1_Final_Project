@@ -100,7 +100,7 @@ function onScroll(evt) {
         cardSectionDesktop.style.opacity = '1';
     }
 
-    if (window.scrollY + 500 >= contact.offsetTop) {
+    if (window.scrollY + 700 >= contact.offsetTop) {
         contact.classList.add('title-grow');
         contact.style.opacity = '1';
         openForm.classList.add('fadeIn-left');
