@@ -630,6 +630,7 @@ footer ul li {
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 20px;
+        font-weight: bold;
     }
 
     #nav-menu ul li:hover, #nav-menu ul li a:hover, #nav-menu ul li a:hover span {
@@ -645,6 +646,7 @@ footer ul li {
 
     .name {
         visibility: visible;
+        font-weight: bold;
     }
 
     #header-content {
